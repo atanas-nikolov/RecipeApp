@@ -52,7 +52,7 @@ android {
 dependencies {
 
     //Compose ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose-android:2.6.2") //by def was 2.8.7
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2") //by def was 2.8.7
 
     //Network calls to getting the data
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
